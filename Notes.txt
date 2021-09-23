@@ -1,0 +1,29 @@
+<title> Starting new journey for levelOne <title>
+<HEAD> HTML + CSS</HEAD>
+
+<h1> <b> HTML </b> </h1>
+DAY ONE
+new things learned
+1.@conatiners
+2.nav tag
+3.meta : as predefined for data about html:5
+4.section tag
+5.header & footer
+6.hr & how to comment faster ctrl+"/"
+
+<h1> <b> CSS </b> </h1>
+CSS Notes 
+Part one
+inline
+	<style color:"red"> 
+inside 
+	<style> 
+		</style>
+external/outside 
+	<link rel = "stylesheet" href="style.css">
+
+Part Two
+for selecting proprty
+ 	if class ="a"  then use "." access for eg .a{color:"red";}
+	if id ="a" then use "#" access for eg. #a{color:"red";}
+ 

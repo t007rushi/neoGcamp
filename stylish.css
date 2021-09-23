@@ -1,0 +1,26 @@
+h1{
+    background-color: khaki;
+}
+ul {
+    background-color: blue;
+    text-align: left;
+}
+ul li{
+    background-color: aqua;
+}
+
+ol {
+    background-color: brown;
+}
+ol li{
+    background-color: blueviolet;
+}
+footer{
+    background-color: yellowgreen;
+    text-align: center;
+    text-shadow: 10ch;
+}
+
+#lib{
+    color: tomato;
+}
