@@ -1,19 +1,22 @@
-h1{
+:root{
+    --primary-color : blueviolet;
+}
+.h1{
     background-color: khaki;
 }
 ul {
-    background-color: blue;
+    /* background-color: blue; */
     text-align: left;
 }
 ul li{
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 ol {
-    background-color: brown;
+    /* background-color: brown; */
 }
 ol li{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 footer{
     background-color: yellowgreen;
@@ -22,9 +25,66 @@ footer{
 }
 
 #lib{
-    color: tomato;
+    color: rgb(235, 53, 21);
+}
+/***Contaners***/
+
+.container{
+    padding-left: 3rem;
 }
 
+.New{
+    max-width: 600px;
+    margin: auto;
+}
 
+/** Links **/
+.links{
+    margin-right: 0.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
 
+.linker{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color : var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.non-bullets{
+    list-style: none;
+}
+
+.li-inline{
+display: inline;
+padding: 1rem 1rem;
+/* vertical-align: auto; */
+text-align: right;
+}
+
+.navigation{
+    background-color: blueviolet;
+    padding: 1rem 0rem;
+}
+
+.navigation .nav{
+    color: aliceblue;
+    text-align: center ;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+}
+
+.navigation .new-brand{
+    color: aliceblue;
+    font-size: 1.5rem;
+    /* font-family: 'Times New Roman', Times, serif; */
+font-weight: bold;
+margin-left: 1rem;
+}
 /* vscode://vscode.github-authentication/did-authenticate?windowid=1&code=b831f9d2f90ef48e173a&state=ce6e957d-88e5-4c79-9a60-7a89b881e328 */

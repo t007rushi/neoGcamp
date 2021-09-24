@@ -27,3 +27,10 @@ for selecting proprty
  	if class ="a"  then use "." access for eg .a{color:"red";}
 	if id ="a" then use "#" access for eg. #a{color:"red";}
  
+
+if class2 is inherited class2 then
+use as 
+.class1 .class2{
+;
+}
+ 
